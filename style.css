@@ -71,3 +71,67 @@
     margin-right: 20px;
     justify-content: center;
   }
+
+  @media (max-width: 768px) { 
+    
+  .button-10 { /* Add responsive styles for .button-10 here */ }
+
+  ul { /* Add responsive styles for ul here */ }
+  
+  li { /* Add responsive styles for li here */ }
+  
+  li i { /* Add responsive styles for li i here */ }
+  
+  .li2 { /* Add responsive styles for .li2 here */ }
+  
+  .li2 i { /* Add responsive styles for .li2 i here */ } }
+
+  .carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-control:focus {
+    outline: none;
+}
