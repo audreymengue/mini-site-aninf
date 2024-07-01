@@ -88,6 +88,9 @@
     .fonction {
         margin: 20px 0;
     }
+    .fa-linkedin {
+        margin-right: 10px;
+    }
     span {
         margin: 20px 0;
         margin-right: 15px;
@@ -172,7 +175,6 @@
 }
 
 .carousel-inner {
-
     height: 600px;
     display: flex;
     /* transition: transform 0.5s ease-in-out; */
@@ -213,3 +215,39 @@
 .carousel-control:focus {
     outline: none;
 }
+
+@media (max-width: 375px) {
+    .main-div {
+        width: auto;
+    }
+    .background-div {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    .card {
+      margin-top: 80px;
+    }
+    .inter-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F5F7F8;
+        width: 90%;
+        border-radius: 10px;
+        margin: 20px auto 10px;
+    }
+    .middle-div,.bottom-div {
+        width: 80%;
+    }
+    .profile-details {
+        margin-top: 20px;
+    }
+    .bottom-div {
+        padding-left: 20px;
+    }
+    .carousel-inner {
+        height: 370px;
+    }
+  }
