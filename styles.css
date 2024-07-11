@@ -52,13 +52,13 @@
 }
 
 .card {
-    margin: 0 35%;
+    margin: 0 25%;
     text-align: center;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: calc(15% + 10px);
-    left: calc(15% + 10px);
+    top: calc(25% + 10px);
+    left: calc(25% + 10px);
     transform: translate(-50%, -50%);
     font-family: sans-serif;
 
@@ -67,8 +67,8 @@
     }
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 500px;
+        height: 500px;
         border-radius: 10px;
     }
 }
@@ -105,6 +105,9 @@
             color: #25558D;
             font-size: 25px;
         }
+    }
+    .dgname {
+        font-size: 14px;
     }
 }
 
