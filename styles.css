@@ -12,6 +12,7 @@
     right: 0;
     margin: auto;
 }
+
 .background-div {
     background-color: green;
     height: 300px;
@@ -47,7 +48,7 @@
         align-items: center;
     }
 
-    img{
+    img {
         width: 150px;
         height: 150px;
         border-radius: 50%;
@@ -61,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
 
     img {
         width: 80px;
@@ -88,13 +89,16 @@
         font-weight: 600;
         color: #2F3645;
     }
+
     .fonction {
         margin: 20px 0;
     }
+
     .fa-linkedin {
         margin-right: 10px;
         cursor: pointer;
     }
+
     span {
         margin: 20px 0;
         margin-right: 15px;
@@ -105,6 +109,7 @@
             cursor: pointer;
         }
     }
+
     .dgname {
         font-size: 14px;
     }
@@ -125,7 +130,8 @@
         font-size: 1.5rem;
         font-weight: 600;
         padding: 10px 0;
-        color: #2F3645;;
+        color: #2F3645;
+        ;
     }
 
     span {
@@ -149,7 +155,9 @@
         font-size: 12px;
         font-weight: 300;
         padding: 10px 0;
-        color: #2F3645;;
+        color: #2F3645;
+        ;
+
         i {
             color: #25558D;
             font-size: 35px;
@@ -164,6 +172,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     .a-propos {
         span i {
             color: #25558D;
@@ -225,38 +234,200 @@
     outline: none;
 }
 
+
+
+/* General responsive styling for devices up to 800px */
 @media (max-width: 800px) {
     .main-div {
         width: auto;
     }
+
     .background-div {
         width: auto;
         overflow: hidden;
         border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
         justify-content: center;
     }
-    
-    .inter-div{
+
+    .inter-div {
+        display: -webkit-box; /* Safari */
+        display: -ms-flexbox; /* IE10 */
         display: flex;
+        -webkit-box-orient: vertical; /* Safari */
+        -webkit-box-direction: normal; /* Safari */
+        -ms-flex-direction: column; /* IE10 */
         flex-direction: column;
         align-items: center;
         background-color: #F5F7F8;
         width: auto;
         border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
         margin: 20px auto 0;
     }
-    .middle-div,.bottom-div {
+
+    .middle-div,
+    .bottom-div {
         width: auto;
     }
+
     .profile-details {
         margin-top: 20px;
     }
+
     .bottom-div {
         padding-left: 20px;
     }
+
     .carousel-inner {
         height: auto;
         margin-bottom: 20px;
     }
-    
-  }
+}
+
+/* Specific responsive styling for iPhones */
+@media (max-width: 428px) {
+    .main-div {
+        width: auto;
+    }
+
+    .background-div {
+        width: auto;
+        overflow: hidden;
+        border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
+        justify-content: center;
+    }
+
+    .inter-div {
+        display: -webkit-box; /* Safari */
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -webkit-box-orient: vertical; /* Safari */
+        -webkit-box-direction: normal; /* Safari */
+        -ms-flex-direction: column; /* IE10 */
+        flex-direction: column;
+        align-items: center;
+        background-color: #F5F7F8;
+        width: auto;
+        border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
+        margin: 20px auto 0;
+    }
+
+    .middle-div,
+    .bottom-div {
+        width: auto;
+    }
+
+    .profile-details {
+        margin-top: 20px;
+    }
+
+    .bottom-div {
+        padding-left: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Specific responsive styling for smaller iPhones (iPhone SE) */
+@media (max-width: 375px) {
+    .main-div {
+        width: auto;
+    }
+
+    .background-div {
+        width: auto;
+        overflow: hidden;
+        border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
+        justify-content: center;
+    }
+
+    .inter-div {
+        display: -webkit-box; /* Safari */
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -webkit-box-orient: vertical; /* Safari */
+        -webkit-box-direction: normal; /* Safari */
+        -ms-flex-direction: column; /* IE10 */
+        flex-direction: column;
+        align-items: center;
+        background-color: #F5F7F8;
+        width: auto;
+        border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
+        margin: 20px auto 0;
+    }
+
+    .middle-div,
+    .bottom-div {
+        width: auto;
+    }
+
+    .profile-details {
+        margin-top: 20px;
+    }
+
+    .bottom-div {
+        padding-left: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Specific responsive styling for the smallest iPhones (iPhone 5, 5S, SE 1st Gen) */
+@media (max-width: 320px) {
+    .main-div {
+        width: auto;
+    }
+
+    .background-div {
+        width: auto;
+        overflow: hidden;
+        border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
+        justify-content: center;
+    }
+
+    .inter-div {
+        display: -webkit-box; /* Safari */
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -webkit-box-orient: vertical; /* Safari */
+        -webkit-box-direction: normal; /* Safari */
+        -ms-flex-direction: column; /* IE10 */
+        flex-direction: column;
+        align-items: center;
+        background-color: #F5F7F8;
+        width: auto;
+        border-radius: 10px;
+        -webkit-border-radius: 10px; /* Safari */
+        margin: 20px auto 0;
+    }
+
+    .middle-div,
+    .bottom-div {
+        width: auto;
+    }
+
+    .profile-details {
+        margin-top: 20px;
+    }
+
+    .bottom-div {
+        padding-left: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
