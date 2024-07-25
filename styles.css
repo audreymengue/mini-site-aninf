@@ -17,7 +17,9 @@
     height: 300px;
 }
 
-
+.overlay-div {
+    padding: 0 20px;
+}
 
 .imgSize {
     width: 50px;
@@ -32,22 +34,22 @@
     height: 300px;
     background-image: url('./assets/lastbg.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center;   
+}
 
-    .card {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: inherit;
-        justify-content: center;
-        align-items: center;
-    }
+.background-div  .card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
 
-    img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
+.background-div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .overlay-div {
@@ -57,11 +59,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
-        .img-class {
-            width: 100px;
-            height: auto;
-        }
+.overlay-div  .img-class {
+    width: 100px;
+    height: auto;
 }
 
 .inter-div {
@@ -76,36 +78,37 @@
     padding: 0 20px;
     font-family: sans-serif;
     width: 50%;
+}
 
-    p {
-        font-size: 1.5rem;
-        font-weight: 600;
-        color: #2F3645;
-    }
+.middle-div   p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2F3645;
+}
 
-    .fonction {
-        margin: 20px 0;
-    }
+.middle-div .fonction {
+    margin: 20px 0;
+}
 
-    .fa-linkedin {
-        margin-right: 10px;
-        cursor: pointer;
-    }
+.middle-div .fa-linkedin {
+    margin-right: 10px;
+    cursor: pointer;
+}
 
-    span {
-        margin: 20px 0;
-        margin-right: 15px;
+.middle-div span {
+    margin: 20px 0;
+    margin-right: 15px;
 
-        i {
-            color: #25558D;
-            font-size: 25px;
-            cursor: pointer;
-        }
-    }
+}
 
-    .dgname {
-        font-size: 14px;
-    }
+.middle-div span  i {
+    color: #25558D;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.middle-div .dgname {
+    font-size: 14px;
 }
 
 .line {
@@ -118,45 +121,44 @@
 .bottom-div {
     width: 50%;
     font-family: sans-serif;
+}
 
-    h3 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        padding: 10px 0;
-        color: #2F3645;
-        ;
-    }
+.bottom-div  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #2F3645;
+    ;
+}
 
-    span {
-        padding-left: 15px;
-        margin-right: 15px;
-    }
+.bottom-div span {
+    padding-left: 15px;
+    margin-right: 15px;
+}
 
-    .pi {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-    }
+.bottom-div  .pi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
 
-    .pi i {
-        color: #25558D;
-        font-size: 25px;
-    }
+.bottom-div  .pi i {
+    color: #25558D;
+    font-size: 25px;
+}
 
-    p {
-        font-size: 12px;
-        font-weight: 300;
-        padding: 10px 0;
-        color: #2F3645;
-        ;
+.bottom-div p {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 0;
+    color: #2F3645;
+}
 
-        i {
-            color: #25558D;
-            font-size: 35px;
-            cursor: pointer;
-        }
-    }
+.bottom-div p i {
+    color: #25558D;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 .carousel-fix {
@@ -166,15 +168,15 @@
     justify-content: center;
     align-items: center;
 
-    .a-propos {
-        span i {
-            color: #25558D;
-            font-size: 35px;
-            text-align: right;
-            margin: 20px;
-            cursor: pointer;
-        }
-    }
+    
+}
+
+.carousel-fix .a-propos span i{
+    color: #25558D;
+        font-size: 35px;
+        text-align: right;
+        margin: 20px;
+        cursor: pointer;
 }
 
 .carousel {
@@ -242,7 +244,9 @@
         -webkit-border-radius: 10px; /* Safari */
         justify-content: center;
     }
-
+    .overlay-div {
+        padding: 0 15px;
+    }
     .inter-div {
         display: -webkit-box; /* Safari */
         display: -ms-flexbox; /* IE10 */
@@ -260,31 +264,33 @@
     }
 
     .middle-div {
-        width: 100%;
-
-        .profile-details p{
-            font-size: 32px;
-            font-weight: 500;
-            line-height: 50px;
-        }
-        .profile-details .fonction{
-            font-size: 26px;
-        }
+        width: 100%;   
     }
+
+    .middle-div .profile-details p{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 45px;
+    }
+    .profile-details .fonction{
+        font-size: 24px;
+    }
+
     .bottom-div {
         width: 100%;
-        padding: 0 50px;
+        padding: 0 50px; 
+    }
 
-        h3{
-            margin-top: 15px;
-            color: #4e535c;
-            font-weight: 500;
-            text-transform: uppercase;
-            font-size: 18px;
-        }
-        p{
-            font-size: 16px;
-        }
+    .bottom-div  h3{
+        margin-top: 15px;
+        color: #4e535c;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .bottom-div p{
+        font-size: 16px;
     }
 
     .profile-details {
@@ -300,4 +306,3 @@
         margin-bottom: 20px;
     }
 }
-
