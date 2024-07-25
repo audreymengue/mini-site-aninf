@@ -14,15 +14,10 @@
 }
 
 .background-div {
-    background-color: green;
     height: 300px;
 }
 
-.background-div .bgimage {
-    width: 600px;
-    height: 300px;
-    position: relative;
-}
+
 
 .imgSize {
     width: 50px;
@@ -74,7 +69,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    margin-top: 10px;
+    padding: 40px 0 20px 0;
 }
 
 .middle-div {
@@ -114,7 +109,7 @@
 }
 
 .line {
-    width: 5px;
+    width: 2px;
     height: auto;
     background-color: #25558D;
     margin-right: 20px;
@@ -261,12 +256,35 @@
         width: auto;
         border-radius: 10px;
         -webkit-border-radius: 10px; /* Safari */
-        margin: 20px auto 0;
+        padding: 40px 30px;
     }
 
-    .middle-div,
+    .middle-div {
+        width: 100%;
+
+        .profile-details p{
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 50px;
+        }
+        .profile-details .fonction{
+            font-size: 26px;
+        }
+    }
     .bottom-div {
-        width: auto;
+        width: 100%;
+        padding: 0 50px;
+
+        h3{
+            margin-top: 15px;
+            color: #4e535c;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px;
+        }
     }
 
     .profile-details {
@@ -283,149 +301,3 @@
     }
 }
 
-/* Specific responsive styling for iPhones */
-@media (max-width: 428px) {
-    .main-div {
-        width: auto;
-    }
-
-    .background-div {
-        width: auto;
-        overflow: hidden;
-        border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
-        justify-content: center;
-    }
-
-    .inter-div {
-        display: -webkit-box; /* Safari */
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -webkit-box-orient: vertical; /* Safari */
-        -webkit-box-direction: normal; /* Safari */
-        -ms-flex-direction: column; /* IE10 */
-        flex-direction: column;
-        align-items: center;
-        background-color: #F5F7F8;
-        width: auto;
-        border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
-        margin: 20px auto 0;
-    }
-
-    .middle-div,
-    .bottom-div {
-        width: auto;
-    }
-
-    .profile-details {
-        margin-top: 20px;
-    }
-
-    .bottom-div {
-        padding-left: 20px;
-    }
-
-    .carousel-inner {
-        height: auto;
-        margin-bottom: 20px;
-    }
-}
-
-/* Specific responsive styling for smaller iPhones (iPhone SE) */
-@media (max-width: 375px) {
-    .main-div {
-        width: auto;
-    }
-
-    .background-div {
-        width: auto;
-        overflow: hidden;
-        border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
-        justify-content: center;
-    }
-
-    .inter-div {
-        display: -webkit-box; /* Safari */
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -webkit-box-orient: vertical; /* Safari */
-        -webkit-box-direction: normal; /* Safari */
-        -ms-flex-direction: column; /* IE10 */
-        flex-direction: column;
-        align-items: center;
-        background-color: #F5F7F8;
-        width: auto;
-        border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
-        margin: 20px auto 0;
-    }
-
-    .middle-div,
-    .bottom-div {
-        width: auto;
-    }
-
-    .profile-details {
-        margin-top: 20px;
-    }
-
-    .bottom-div {
-        padding-left: 20px;
-    }
-
-    .carousel-inner {
-        height: auto;
-        margin-bottom: 20px;
-    }
-}
-
-/* Specific responsive styling for the smallest iPhones (iPhone 5, 5S, SE 1st Gen) */
-@media (max-width: 320px) {
-    .main-div {
-        width: auto;
-    }
-
-    .background-div {
-        width: auto;
-        overflow: hidden;
-        border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
-        justify-content: center;
-    }
-
-    .inter-div {
-        display: -webkit-box; /* Safari */
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -webkit-box-orient: vertical; /* Safari */
-        -webkit-box-direction: normal; /* Safari */
-        -ms-flex-direction: column; /* IE10 */
-        flex-direction: column;
-        align-items: center;
-        background-color: #F5F7F8;
-        width: auto;
-        border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
-        margin: 20px auto 0;
-    }
-
-    .middle-div,
-    .bottom-div {
-        width: auto;
-    }
-
-    .profile-details {
-        margin-top: 20px;
-    }
-
-    .bottom-div {
-        padding-left: 20px;
-    }
-
-    .carousel-inner {
-        height: auto;
-        margin-bottom: 20px;
-    }
-}
