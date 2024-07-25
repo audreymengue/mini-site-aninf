@@ -131,7 +131,7 @@
     ;
 }
 
-.bottom-div span {
+.bottom-div .p1 {
     padding-left: 15px;
     margin-right: 15px;
 }
@@ -143,7 +143,7 @@
     text-align: center;
 }
 
-.bottom-div  .pi i {
+.bottom-div .pi i {
     color: #25558D;
     font-size: 25px;
 }
@@ -155,9 +155,17 @@
     color: #2F3645;
 }
 
+.bottom-div a {
+    text-decoration: none;
+    padding-right: 15px;
+    cursor: pointer;
+    color: #2F3645;
+}
+
 .bottom-div p i {
     color: #25558D;
     font-size: 35px;
+    padding-right: 15px;
     cursor: pointer;
 }
 
@@ -166,9 +174,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center; 
 }
 
 .carousel-fix .a-propos span i{
@@ -228,8 +234,6 @@
 .carousel-control:focus {
     outline: none;
 }
-
-
 
 /* General responsive styling for devices up to 800px */
 @media (max-width: 800px) {
