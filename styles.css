@@ -34,10 +34,10 @@
     height: 300px;
     background-image: url('./assets/lastbg.jpg');
     background-size: cover;
-    background-position: center;   
+    background-position: center;
 }
 
-.background-div  .card {
+.background-div .card {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -61,7 +61,7 @@
     align-items: center;
 }
 
-.overlay-div  .img-class {
+.overlay-div .img-class {
     width: 100px;
     height: auto;
 }
@@ -80,7 +80,7 @@
     width: 50%;
 }
 
-.middle-div   p {
+.middle-div p {
     font-size: 1.5rem;
     font-weight: 600;
     color: #2F3645;
@@ -101,7 +101,7 @@
 
 }
 
-.middle-div span  i {
+.middle-div span i {
     color: #25558D;
     font-size: 25px;
     cursor: pointer;
@@ -123,7 +123,7 @@
     font-family: sans-serif;
 }
 
-.bottom-div  h3 {
+.bottom-div h3 {
     font-size: 1.5rem;
     font-weight: 600;
     padding: 10px 0;
@@ -136,7 +136,7 @@
     margin-right: 15px;
 }
 
-.bottom-div  .pi {
+.bottom-div .pi {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -174,15 +174,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-.carousel-fix .a-propos span i{
+.carousel-fix .a-propos span i {
     color: #25558D;
-        font-size: 35px;
-        text-align: right;
-        margin: 20px;
-        cursor: pointer;
+    font-size: 35px;
+    text-align: right;
+    margin: 20px;
+    cursor: pointer;
 }
 
 .carousel {
@@ -245,47 +245,57 @@
         width: auto;
         overflow: hidden;
         border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
+        -webkit-border-radius: 10px;
+        /* Safari */
         justify-content: center;
     }
+
     .overlay-div {
         padding: 0 15px;
     }
+
     .inter-div {
-        display: -webkit-box; /* Safari */
-        display: -ms-flexbox; /* IE10 */
+        display: -webkit-box;
+        /* Safari */
+        display: -ms-flexbox;
+        /* IE10 */
         display: flex;
-        -webkit-box-orient: vertical; /* Safari */
-        -webkit-box-direction: normal; /* Safari */
-        -ms-flex-direction: column; /* IE10 */
+        -webkit-box-orient: vertical;
+        /* Safari */
+        -webkit-box-direction: normal;
+        /* Safari */
+        -ms-flex-direction: column;
+        /* IE10 */
         flex-direction: column;
         align-items: center;
         background-color: #F5F7F8;
         width: auto;
         border-radius: 10px;
-        -webkit-border-radius: 10px; /* Safari */
+        -webkit-border-radius: 10px;
+        /* Safari */
         padding: 40px 30px;
     }
 
     .middle-div {
-        width: 100%;   
+        width: 100%;
     }
 
-    .middle-div .profile-details p{
+    .middle-div .profile-details p {
         font-size: 28px;
         font-weight: 500;
         line-height: 45px;
     }
-    .profile-details .fonction{
+
+    .profile-details .fonction {
         font-size: 24px;
     }
 
     .bottom-div {
         width: 100%;
-        padding: 0 50px; 
+        padding: 0 50px;
     }
 
-    .bottom-div  h3{
+    .bottom-div h3 {
         margin-top: 15px;
         color: #4e535c;
         font-weight: 500;
@@ -293,8 +303,8 @@
         font-size: 18px;
     }
 
-    .bottom-div p{
-        font-size: 16px;
+    .bottom-div p {
+        font-size: 14px;
     }
 
     .profile-details {
