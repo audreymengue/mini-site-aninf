@@ -4,6 +4,8 @@
     padding: 0px;
 }
 
+
+
 .main-div {
     max-width: 600px;
     height: 100vh;
@@ -41,15 +43,24 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .background-div img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    width: 295px;
 }
 
 .overlay-div {
